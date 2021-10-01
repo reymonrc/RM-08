@@ -1,0 +1,161 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A16C6A9A-A5E0-7A72-D779-DF8A0A5CCA4D" name="CentroTrabajo">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>B4E40F83-920D-803D-CE4C-BC09982DB097</importedID>
+<engineerTo>
+<item key="FF15EAD3-6C9A-C3A1-2EB0-4BAD38DC357C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="525295E5-B884-71D3-6960-C56106B34560">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>D0D8DBA8-557D-8723-FBFC-30E000C4107D</importedID>
+<engineerTo>
+<item key="FF15EAD3-6C9A-C3A1-2EB0-4BAD38DC357C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID Solicitud" id="84BA2FDF-2B0B-C26F-F4BA-AC71B65DD2FD">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<generatorID>44B19A1F-FBA5-FC2E-B475-CE14ACD24FDD</generatorID>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>A66D6F26-3B10-95FB-DD7E-54B94948958D</importedID>
+<engineerTo>
+<item key="FF15EAD3-6C9A-C3A1-2EB0-4BAD38DC357C" value="true"/>
+</engineerTo>
+<referedAttribute>3AD53D87-BA4D-E857-7257-138A0B51AAEF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CCT" id="5A23BA2A-B2FC-8512-1721-BFB3CD99A237">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>953E67F0-8093-7137-AF88-67F6CCBD0368</importedID>
+<engineerTo>
+<item key="FF15EAD3-6C9A-C3A1-2EB0-4BAD38DC357C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="377ECE54-B6E7-8FE3-46A8-D617D6C2AED6">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>3EFD7D92-4B53-DFAD-AB5B-EB044BB6CCAA</importedID>
+<engineerTo>
+<item key="FF15EAD3-6C9A-C3A1-2EB0-4BAD38DC357C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Turno" id="ED2DC5A6-CDC3-BEAA-5D6A-7A4473E1C37B">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>07EE8E66-B40B-8706-428A-E8EA9E0C673F</importedID>
+<engineerTo>
+<item key="FF15EAD3-6C9A-C3A1-2EB0-4BAD38DC357C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nivel" id="A8534DA4-884B-1A86-DAFD-0FED88B18E28">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>A936092E-22AF-DE18-E7B2-00982F9BE917</importedID>
+<engineerTo>
+<item key="FF15EAD3-6C9A-C3A1-2EB0-4BAD38DC357C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SubNivel" id="F2B001D8-AD04-9CD1-1BB6-D722EA3D3C45">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>1F0F42CB-933A-1389-30DD-7C4856C06CB6</importedID>
+<engineerTo>
+<item key="FF15EAD3-6C9A-C3A1-2EB0-4BAD38DC357C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NumeroAlumnos" id="7D15EAC0-72A3-008D-931C-FBE958E5DA49">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>49523F68-7C79-8F6B-7B2B-6710E22A4FB7</importedID>
+<engineerTo>
+<item key="FF15EAD3-6C9A-C3A1-2EB0-4BAD38DC357C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID Firma" id="FC9F0D88-A4CD-2C54-3D97-D6A1C43428F1">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<generatorID>EF3B1214-10E8-45F8-1D45-E26D79CE78BF</generatorID>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>DCF34E50-AECE-4AFF-B821-3091359F4372</importedID>
+<engineerTo>
+<item key="FF15EAD3-6C9A-C3A1-2EB0-4BAD38DC357C" value="true"/>
+</engineerTo>
+<referedAttribute>2CB59960-07BE-E9CE-B7CB-A47DAC0F7188</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="07F654BC-2833-68F6-298F-297614AA8D23" name="CentroTrabajo PK">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>8AF9B083-CCDE-9092-9ECD-30DD505E2045</importedID>
+<engineerTo>
+<item key="FF15EAD3-6C9A-C3A1-2EB0-4BAD38DC357C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>525295E5-B884-71D3-6960-C56106B34560</attributeRef>
+<attributeRef>84BA2FDF-2B0B-C26F-F4BA-AC71B65DD2FD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

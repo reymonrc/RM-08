@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B86248A7-D055-8B8C-0FA8-2A19E9CD5F38" name="Espacio">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>7CE88016-7B8D-A676-8391-37CD6085CE2E</importedID>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="E825B837-8630-1E45-D5C7-88C19CB84EB8">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>209ED32A-6310-1B48-5334-2C9E42B81673</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6EE05F46-134D-7242-2BB6-C301DC078EF6" name="Espacios_PK">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>2BFAF47C-ED01-58C6-AA23-D189C5B27520</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E825B837-8630-1E45-D5C7-88C19CB84EB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

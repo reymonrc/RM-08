@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="29E10844-ABAB-47A9-522E-B0F1254E3A1B" name="Mobiliario Equipo">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>A4A37D00-2897-D35B-5AA6-F6C032A843AD</importedID>
+<engineerTo>
+<item key="FF15EAD3-6C9A-C3A1-2EB0-4BAD38DC357C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="16745EED-A6E8-3A63-B5BC-77BDDF4708DF">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>2BF3A612-D0A9-E658-1B30-377AF5A8BB3A</importedID>
+<engineerTo>
+<item key="FF15EAD3-6C9A-C3A1-2EB0-4BAD38DC357C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Req mobiliario" id="48C20DDF-C542-A1E8-A0B1-2E1C56A85F3A">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<generatorID>24AF0B6F-ABAE-89A0-B668-2C6154F6FD4B</generatorID>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>0B1C8C46-03C5-9D6C-D4A6-F907866D3F03</importedID>
+<engineerTo>
+<item key="FF15EAD3-6C9A-C3A1-2EB0-4BAD38DC357C" value="true"/>
+</engineerTo>
+<referedAttribute>28D6A6C5-2993-5160-9766-992DBAF3BD0F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descripcion" id="4873DF97-748E-99AB-0E6E-07C17A51C48E">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>FE874786-E35B-9AA4-2A87-BE3D4CFE0240</importedID>
+<engineerTo>
+<item key="FF15EAD3-6C9A-C3A1-2EB0-4BAD38DC357C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cantidad" id="772F6A36-E600-3EDA-D426-DC9AE098194E">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>D7A9B2B9-257D-669F-084B-68BDAFC53105</importedID>
+<engineerTo>
+<item key="FF15EAD3-6C9A-C3A1-2EB0-4BAD38DC357C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Prioridad" id="1BE69DE5-D423-558E-5EB5-85C774F6E096">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>A05F097E-7C6B-E1CB-31F1-41F900AC49F2</importedID>
+<engineerTo>
+<item key="FF15EAD3-6C9A-C3A1-2EB0-4BAD38DC357C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>8A62A30B-6460-799E-0485-9A9F2E1B4595</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2ADA6277-0CE2-7BEA-F059-D3C88DBD0F6F" name="Mobiliario Equipo PK">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>EADF03F0-C2C8-1175-99C9-CA52FD34E319</importedID>
+<engineerTo>
+<item key="FF15EAD3-6C9A-C3A1-2EB0-4BAD38DC357C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>16745EED-A6E8-3A63-B5BC-77BDDF4708DF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3AD099BF-FD4E-E4E2-5932-02E24BC7A91D" name="Mantenimiento">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>1D7AC478-3722-9316-E0B3-F71400C5ADC1</importedID>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="D927FF17-6ECA-A078-D167-B3F271C214F5">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>D3DF1FC5-4026-9A81-7484-93F4F59684F7</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Req_Mantenimiento" id="3BE9DC01-038F-2778-94A7-6179C11F9424">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>5E802BA7-14B9-0097-1B03-D7FAA73E06EE</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8C59AB63-CDAE-AB19-ADED-BF3313810C09" referredColumn="814D0015-ED3A-89BF-610A-AAB754E86724"/>
+</associations>
+</Column>
+<Column name="Tipo" id="98D8B189-9038-D492-D4CB-3F2EBBF40C33">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>EC8CBBBD-AD0F-A59A-3825-281A16E33E0B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>CA980605-D4ED-9250-5F78-ADEAF0E55ED2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prioridad" id="B661A2B7-4EB7-B0A9-AF94-2C576191BB60">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>437269DD-04AD-F112-5B30-769E4E0BE480</importedID>
+<sourceType>Manual</sourceType>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>8A62A30B-6460-799E-0485-9A9F2E1B4595</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Espacio" id="2A144DFD-4C97-2EDC-81D3-87739911CA3A">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>EB08F11A-5CA8-DA77-A112-9A70C68573C1</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1774AD86-91B7-A66D-4693-C5123B4DE898</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Especificacion_otro" id="0E288ACE-B6AD-6B36-37C9-7FD665E6A28C">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>8A4AE7DC-871A-AC2F-3767-D9DCE52EACAD</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F2A12276-5BF7-8002-0F84-1D416E094FAC" name="Req_Mantenimiento_PKv3">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>CA75FB5C-7EC5-B74E-BE51-F9823895BCE7</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D927FF17-6ECA-A078-D167-B3F271C214F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D68C15AA-92DA-3B77-1031-53570653886C" name="Mantenimiento_Req_Mant_FK">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 23:34:01 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BE9DC01-038F-2778-94A7-6179C11F9424"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

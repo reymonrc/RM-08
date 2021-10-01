@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Solicitud_Req_Construccion_FK" directorySegmentName="seg_0" id="505AC44F-D5C6-3073-5B0D-2965BCD893C8">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>91CB72CB-7E4A-88A8-3DE0-552F9538F61C</importedID>
+<engineerTo>
+<item key="FF15EAD3-6C9A-C3A1-2EB0-4BAD38DC357C" value="true"/>
+</engineerTo>
+<sourcePk>39DBD979-F394-F873-B191-8C00C7470A89</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>482551BF-21EB-E6CC-86A3-4F5A94A53A24</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C2311496-935E-B32B-F17D-42CF0F2D1EA4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

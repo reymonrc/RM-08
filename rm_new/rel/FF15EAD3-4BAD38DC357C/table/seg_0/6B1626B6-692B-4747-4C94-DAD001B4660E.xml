@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6B1626B6-692B-4747-4C94-DAD001B4660E" name="Construccion">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>45C73D2D-1BF1-D578-E06C-DA03E7DC860B</importedID>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="1F20B06C-E6E3-806C-9D1B-888961C4FA05">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>17813EC1-1008-E11F-11B0-B35F966A48D8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Req_Construccion" id="DD91F94C-F385-894E-C773-21C02F518432">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>2ADB99B8-1A7E-CD8F-71A1-AA08F7E8098E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="474F4A14-4ABD-47A8-76B7-3E912F644F16" referredColumn="EEA9A64D-1781-F3AE-B974-95C225526E86"/>
+</associations>
+</Column>
+<Column name="Espacio" id="973FA937-7E68-4064-7245-DE023B04CAAB">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>C78535C8-7397-C091-A95B-14DD0FA64148</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1774AD86-91B7-A66D-4693-C5123B4DE898</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prioridad" id="787E3225-87DA-CD68-83B8-5FEE071D8308">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>07C51C75-8166-12A3-150B-91B242D31A5D</importedID>
+<sourceType>Manual</sourceType>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>8A62A30B-6460-799E-0485-9A9F2E1B4595</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Observaciones" id="E110404E-F741-1C2C-D567-F2BFAD5B1FF8">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>6147A472-6E1D-76E7-9E0D-3D5FC12C8298</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6CEECE3A-FB5A-6E0E-B679-86EAB60ED76A" name="Mantenimientov1_PK">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>70A446E2-6D84-C29D-FB8F-28A1805EC6E6</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F20B06C-E6E3-806C-9D1B-888961C4FA05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8138D56-1C2C-32B9-ADC9-670427650E28" name="Construccion_Req_Const_FK">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 23:33:02 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD91F94C-F385-894E-C773-21C02F518432"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

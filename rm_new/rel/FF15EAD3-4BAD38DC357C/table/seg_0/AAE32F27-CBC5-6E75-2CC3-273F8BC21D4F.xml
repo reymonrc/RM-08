@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AAE32F27-CBC5-6E75-2CC3-273F8BC21D4F" name="Solicitud">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>1EFDD661-7426-902E-B517-16FDFEB699AB</importedID>
+<ordsAlias>table_1</ordsAlias>
+<abbreviation>Sol</abbreviation>
+<spatialTable>true</spatialTable>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="CF7ECC33-C277-2143-0E17-E34EB160DCB4">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador de la tabla Solicitud]]></commentInRDBMS>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>266DCADA-7ED6-7013-B30F-9D9D519B3C21</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha" id="53C20A92-1141-4763-525F-7F7AEF5C783E">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha del día que se hizo la solicitud]]></commentInRDBMS>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>FF20713A-BB05-62C8-4B08-1C4AA8799D8C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Inmueble" id="55764970-0B4B-C313-8F5F-7CC7B0EC1FF3">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>5E65A7F4-806C-A4F0-BA20-A33A74246CD0</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D0090DB6-B1C2-D3BE-D5DA-2E3A4814D5CC" referredColumn="40410A38-3E1A-CAC4-B698-D4398222C747"/>
+</associations>
+</Column>
+<Column name="ID_Req_Mantenimiento" id="2D02BCB4-8B45-4E1E-BB0C-3DA70C967E35">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>3D625C49-2505-268E-432A-0D24D9337E04</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0A03A74-93BD-6819-CBDD-FEF136511F2B" referredColumn="814D0015-ED3A-89BF-610A-AAB754E86724"/>
+</associations>
+</Column>
+<Column name="ID_Req_Construccion" id="3AD7601C-EC7F-72ED-012D-123315070711">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>8D1AFE77-1D1E-FC73-B464-5F2F6086F024</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="247B3408-CA3C-7F57-2D81-E9128E562866" referredColumn="8CAB3B82-BFB5-B7AB-6DF7-DC0A9DAB6ABA"/>
+</associations>
+</Column>
+<Column name="ID_Req_Mobi_Equipo" id="962B72CD-714B-B827-2440-1148FCABEFA6">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>647F3826-D346-D72F-08E0-6365CF044C70</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="26F84265-B6BF-B080-EC64-158F003D1383" referredColumn="0EA0F7EE-9A20-4DCA-2FB5-986EF52B2EC8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="70568538-0195-F446-023C-2327176CA7D3" name="Solicitud_PK">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>E5A87DDB-4751-E0E3-85E1-97A8F532ED5B</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF7ECC33-C277-2143-0E17-E34EB160DCB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0B9DA455-D5D1-2F73-A14D-7080A891A516" name="Solicitud_Direccion_FK">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55764970-0B4B-C313-8F5F-7CC7B0EC1FF3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A4809B9-6AAF-CCFF-73E0-9179E6334D15" name="Solicitud_Req_Const_FK">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 23:42:23 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3AD7601C-EC7F-72ED-012D-123315070711"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30B8ADBC-099C-4236-1CFE-60FADDAFAD3A" name="Solicitud_Req_Mant_FK">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 23:42:23 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D02BCB4-8B45-4E1E-BB0C-3DA70C967E35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9BFE468D-6AC0-4178-4C72-E63881E4D690" name="Solicitud_Req_ME_FK">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 23:42:23 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="962B72CD-714B-B827-2440-1148FCABEFA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

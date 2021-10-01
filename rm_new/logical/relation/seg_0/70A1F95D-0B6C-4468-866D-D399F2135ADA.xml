@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Solicitud_Req_Mantenimiento_FK" directorySegmentName="seg_0" id="70A1F95D-0B6C-4468-866D-D399F2135ADA">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>8582D549-8186-698D-4650-71868BB8DF8B</importedID>
+<engineerTo>
+<item key="FF15EAD3-6C9A-C3A1-2EB0-4BAD38DC357C" value="true"/>
+</engineerTo>
+<sourcePk>A8725EA4-EE43-2D1C-FCE8-76EA28B52EC2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>25B9C1F5-42A7-63DC-05F5-1ACA816BFC97</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C2311496-935E-B32B-F17D-42CF0F2D1EA4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

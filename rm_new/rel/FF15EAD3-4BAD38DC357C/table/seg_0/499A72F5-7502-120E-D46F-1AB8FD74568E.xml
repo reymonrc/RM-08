@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="499A72F5-7502-120E-D46F-1AB8FD74568E" name="Req_Const">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>41BAFD9D-0A0B-DF6E-734F-E115A5820F0A</importedID>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="8CAB3B82-BFB5-B7AB-6DF7-DC0A9DAB6ABA">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>E8929BCC-1A6A-6DD7-24FB-ADBCCA085428</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Solicitud" id="EEA9A64D-1781-F3AE-B974-95C225526E86">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>81503E19-923A-2D95-C53A-DF3D6EAC20D2</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8510C898-0525-C1DA-2F19-1AC432203657" referredColumn="CF7ECC33-C277-2143-0E17-E34EB160DCB4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E5F8B244-08FB-83D2-BFD4-3232C1C82C7F" name="Req_Mantenimientov1_PK">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>572DA704-8C90-1677-D1CC-AE46F75560DA</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CAB3B82-BFB5-B7AB-6DF7-DC0A9DAB6ABA"/>
+<colUsage columnID="EEA9A64D-1781-F3AE-B974-95C225526E86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A22A028E-CE27-14F8-92F8-B31B0B560C0C" name="Req_Const_Solicitud_FK">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 23:38:40 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EEA9A64D-1781-F3AE-B974-95C225526E86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

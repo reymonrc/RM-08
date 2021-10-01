@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Detalle_Espacio_Espacio_FK" directorySegmentName="seg_0" id="1A9E82FA-90E3-7C9B-9741-AE3DB12A30CB">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>061F52D7-0C88-8245-0CB4-11BC6BD0A725</importedID>
+<engineerTo>
+<item key="FF15EAD3-6C9A-C3A1-2EB0-4BAD38DC357C" value="true"/>
+</engineerTo>
+<sourcePk>CFA17B20-102E-1DBF-0600-122E4FC2BA8B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8E1AFB7D-00CB-24E9-B3C4-FAD2495708EB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3EF8253B-CE83-2A0D-9243-AC724D518EFC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

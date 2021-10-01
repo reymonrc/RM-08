@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FA8F8DA6-798A-2F84-DDC7-04C0444D4C05" name="Mobiliario_Equipo">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>6B07EDCA-CF45-0465-E28D-C1E12281BDD6</importedID>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="51751A50-2A1D-49EF-8EA8-9F4DE0BFF0D0">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>60289D52-1339-764F-2866-0AB2656ADFF6</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Req_mobiliario" id="64962D82-D452-EA4F-DF31-7CB7CC9CFAD4">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>A7A8E5AF-BC0A-8F9B-5208-EFD2E8C79CF4</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AEAAA236-C3CF-E38D-F2C8-BFB6083BBF6B" referredColumn="0EA0F7EE-9A20-4DCA-2FB5-986EF52B2EC8"/>
+</associations>
+</Column>
+<Column name="Descripcion" id="15549D5F-1DC6-F1F7-B1FA-EC2E328E403E">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>ED346B8D-DB2B-1F5B-EFF4-B70F8DF650DB</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cantidad" id="7ED910C9-3CDD-8DF2-4E75-CDB714D65CD7">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>30AE4CCB-A157-68AE-5754-2D43A130C21E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prioridad" id="4C7D446B-6030-A04A-2577-15E251DCEA83">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>8F5B7C8A-3099-8E77-2FFE-63C38F2A842E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>8A62A30B-6460-799E-0485-9A9F2E1B4595</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="02ACB8F7-B3AD-BE8C-2DB4-CAF7DA59C9A4" name="Mobiliario_Equipo_PK">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>B3A94378-C1A4-FB86-4661-13D6740B79F2</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51751A50-2A1D-49EF-8EA8-9F4DE0BFF0D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E0FB3172-0995-F6F1-4993-1D5C959DF560" name="Mobiliario_Equipo_Req_ME_FK">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 23:34:35 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64962D82-D452-EA4F-DF31-7CB7CC9CFAD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

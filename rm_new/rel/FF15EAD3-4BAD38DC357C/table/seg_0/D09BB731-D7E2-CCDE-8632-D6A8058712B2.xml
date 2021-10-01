@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D09BB731-D7E2-CCDE-8632-D6A8058712B2" name="Detalle_Servicio">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>477DE8F9-4473-C5AE-4731-1D7E72844174</importedID>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="69BAAF6A-2D12-F0FF-0417-ED1B59FCC18E">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>1AE64953-625A-5F3C-73C5-905B50E82923</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_servicio_inmueble" id="E44D38BB-019F-4C30-ADDA-1B02DE7B12AB">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>C1BF0B8C-6741-727F-2213-5A83923B9801</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28EDA5D9-D911-C55B-9963-2FD65855D7AA" referredColumn="2856CAAE-3354-C9FA-6AB3-10F5EACEFDE1"/>
+</associations>
+</Column>
+<Column name="Servicio" id="C450F433-D52D-F2AB-BBDF-549BBCF72943">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>E8639AC7-55E2-6983-99D1-29145C3414A1</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>8C456B66-D81C-B1E8-18FF-3F71E26D6CB7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Condicion" id="5A20F57C-4DE5-EF82-ECD9-300B2C88BCE5">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>55C5B7A3-F6C1-D358-C760-3F6FEB9E374D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D229C94B-E873-CDB1-A7E5-5B99A0F2D2CE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4A96DED8-1772-79DB-8E17-0B9DD3D50841" name="Servicios_PK">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>3913A312-865B-0634-4261-9591A9EE500E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69BAAF6A-2D12-F0FF-0417-ED1B59FCC18E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8CECBA1C-8C89-E03C-9FD6-DF368BD596E2" name="Detalle_Servicio_Servicio_FK">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E44D38BB-019F-4C30-ADDA-1B02DE7B12AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

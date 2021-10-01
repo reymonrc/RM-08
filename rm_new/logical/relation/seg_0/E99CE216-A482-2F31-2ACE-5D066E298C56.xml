@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TABLE_7_Inmueble_FK" directorySegmentName="seg_0" id="E99CE216-A482-2F31-2ACE-5D066E298C56">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>0F622E7D-3BF7-1296-4F2C-066F9AEE9070</importedID>
+<engineerTo>
+<item key="FF15EAD3-6C9A-C3A1-2EB0-4BAD38DC357C" value="true"/>
+</engineerTo>
+<sourcePk>953D144D-E62D-0B2F-7C6C-94A9B09E1402</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5BB54A0D-1673-7238-22B2-B4617A0380BF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EE6490F4-7A90-B72C-DAA7-676BC28A65C6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

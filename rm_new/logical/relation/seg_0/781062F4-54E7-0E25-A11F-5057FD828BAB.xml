@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Req_Mobiliario_Equipo_Solicitud_FK" directorySegmentName="seg_0" id="781062F4-54E7-0E25-A11F-5057FD828BAB">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>BA7D65E9-4B7C-4C73-1A54-49960D025BE1</importedID>
+<engineerTo>
+<item key="FF15EAD3-6C9A-C3A1-2EB0-4BAD38DC357C" value="true"/>
+</engineerTo>
+<sourcePk>32B4D1C2-792F-15AF-179B-062AF338A22A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C2311496-935E-B32B-F17D-42CF0F2D1EA4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>975D9111-E603-8FCA-AC7E-5875396CB038</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

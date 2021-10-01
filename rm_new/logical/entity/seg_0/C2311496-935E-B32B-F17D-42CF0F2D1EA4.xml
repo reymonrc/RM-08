@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C2311496-935E-B32B-F17D-42CF0F2D1EA4" name="Solicitud">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>49A6BCC9-C8DA-73AC-DB57-AEDBE27B06CE</importedID>
+<engineerTo>
+<item key="FF15EAD3-6C9A-C3A1-2EB0-4BAD38DC357C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Sol</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="3AD53D87-BA4D-E857-7257-138A0B51AAEF">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador de la tabla Solicitud]]></commentInRDBMS>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>AF677E80-6CD6-65E0-43D1-34E79408AE9F</importedID>
+<engineerTo>
+<item key="FF15EAD3-6C9A-C3A1-2EB0-4BAD38DC357C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha" id="9816C98D-66FA-23AE-DEB3-3F32900DE558">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha del día que se hizo la solicitud]]></commentInRDBMS>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>7EA5959B-65A2-3A42-FF9D-C8C1FCE41631</importedID>
+<engineerTo>
+<item key="FF15EAD3-6C9A-C3A1-2EB0-4BAD38DC357C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID Inmueble" id="5EFCFAE8-C614-F62E-06BC-12FCA27A932D">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<generatorID>48476D0A-4102-AB9F-060C-1C39AF9D37D2</generatorID>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>5E24316F-7F2B-4B44-FCB5-893FDA05EF8D</importedID>
+<engineerTo>
+<item key="FF15EAD3-6C9A-C3A1-2EB0-4BAD38DC357C" value="true"/>
+</engineerTo>
+<referedAttribute>B23C04F5-E7C5-2324-B801-F6EA7045518F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID Req Mantenimiento" id="C6D3252A-284C-9AE2-877A-EAC91FBAF9E5">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<generatorID>70A1F95D-0B6C-4468-866D-D399F2135ADA</generatorID>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>F03B1BE3-06A0-0AED-CA96-7FFBA24D806A</importedID>
+<engineerTo>
+<item key="FF15EAD3-6C9A-C3A1-2EB0-4BAD38DC357C" value="true"/>
+</engineerTo>
+<referedAttribute>554EBDA4-BBEE-D34B-80B7-D59688A81082</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID Req Construccion" id="8B00D3EF-0F49-5AAC-5ECF-95ED72130509">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<generatorID>505AC44F-D5C6-3073-5B0D-2965BCD893C8</generatorID>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>2B3AA448-949E-521E-13A7-E0617921D7F5</importedID>
+<engineerTo>
+<item key="FF15EAD3-6C9A-C3A1-2EB0-4BAD38DC357C" value="true"/>
+</engineerTo>
+<referedAttribute>9D1FC4B6-766F-BB77-9FBC-EE077ED8138B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID Req Mobi Equipo" id="338D807E-86E9-18B7-7F65-A29917BC8E84">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<generatorID>4A8C8757-6EA2-94E9-BA87-5984993958BD</generatorID>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>843F210A-27DE-BC69-B8E3-AAA9BD595A33</importedID>
+<engineerTo>
+<item key="FF15EAD3-6C9A-C3A1-2EB0-4BAD38DC357C" value="true"/>
+</engineerTo>
+<referedAttribute>28D6A6C5-2993-5160-9766-992DBAF3BD0F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID Solicitud" id="8CB3081E-72C0-0D78-8157-D02D627D80ED">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<generatorID>505AC44F-D5C6-3073-5B0D-2965BCD893C8</generatorID>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>0496EBAB-A91D-E9D3-1313-B13229EA35F7</importedID>
+<engineerTo>
+<item key="FF15EAD3-6C9A-C3A1-2EB0-4BAD38DC357C" value="true"/>
+</engineerTo>
+<referedAttribute>94FCC862-1066-C48C-4261-D7A9DA30CD42</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID Solicitud1" id="C8B92F0B-00A2-609C-CC21-3251C30510DC">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<generatorID>70A1F95D-0B6C-4468-866D-D399F2135ADA</generatorID>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>7CACC148-34AB-6FA4-23B3-87AD09E68034</importedID>
+<engineerTo>
+<item key="FF15EAD3-6C9A-C3A1-2EB0-4BAD38DC357C" value="true"/>
+</engineerTo>
+<referedAttribute>60B50340-10BE-D567-783C-1E1090FB798A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="32B4D1C2-792F-15AF-179B-062AF338A22A" name="Solicitud PK">
+<createdBy>Universal</createdBy>
+<createdTime>2021-09-28 20:24:58 UTC</createdTime>
+<ownerDesignName>rm_new</ownerDesignName>
+<importedID>D188DF0C-EED3-97D4-7CA2-36C37815C9A9</importedID>
+<engineerTo>
+<item key="FF15EAD3-6C9A-C3A1-2EB0-4BAD38DC357C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3AD53D87-BA4D-E857-7257-138A0B51AAEF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
